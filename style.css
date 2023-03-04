@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(96, 99, 101);
+}
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+  border: 1px red solid;
+}
+h1{
+text-align: center;
+padding: 20px;
+}
+nav{
+  text-align: center;
+  background-color: grey;
+  padding: 10px;
+}
+nav a{
+  text-decoration: none;
+  color:#9c0a0a;
+  padding: 10px 30px;
+  display: inline-block;
+  border-right: 1px #333 solid;
+}
+nav a :last-child{
+
+border-right: 0px;
+}
+nav a:hover{
+  color: cadetblue;
+}
+figure{
+  max-width: 200px;
+  margin: auto;
+  margin-top: 20px;
+}
+figure img{
+  max-width: 200px;
+ border-radius: 15px;
+ border: 8px white solid;
+ box-shadow: 0 0 10px #ccc;
+}
+main{
+  margin-left: 30px;
+}
+main ul{
+  padding: 10px;
+}
+.btn_rojo{
+  background-color: #a70b3a;
+  color: wheat;
+  padding: 10px 30px;
+  border-radius: 40px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.5s;
+}
+.btn_rojo:hover{
+  background-color: aqua;
+  padding: 10px 50px;
+}
+footer{
+  background-color: #333;
+  padding: 50px;
+  text-align: center;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  color: #a70b3a;
+}
+footer a:hover {
+   color: black;
+  }
+figcaption{
+  background-color: #a70b3a;
+ color: white;
+ max-width: 300px;
+ border-radius: 8px;
+ padding: 5px;
+ text-align: center;
+ margin: auto;
+}
+header{
+  line-height: 50px;
+}
